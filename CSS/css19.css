@@ -1,0 +1,180 @@
+body {
+    margin:0;
+    background-color: #eeeeee;
+}
+/*Header*/
+.navGroup {
+    display: flex;
+    background-color: #222222;
+    width:100%;
+    flex-direction: row;
+}
+.logo {
+    padding:1%;
+    width:10%;
+    margin-left:auto;
+    display: inline-block;
+}
+.logo > img {
+    width:50px;
+    height: auto;
+}
+.navigation {
+    padding:1%;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+ul {
+    margin:0;
+    width: 50%;
+}
+ul > li {
+    display: inline-block;
+    text-align: center;
+    padding:5px;
+    color:#eeeeee;
+    font-family: "Comfortaa";
+    font-weight: bold;
+}
+/*Home*/
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+}
+#leftProfile {
+    width:25%;
+    text-align: center;
+    margin-top: 100px;
+}
+#leftProfile > img {
+    width: 250px;
+    height: auto;
+}
+
+.profile {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "Comfortaa";
+}
+.profile > h2 {
+    margin:0;
+}
+.profile > p {
+    font-size: 24px;
+    margin: 0;
+}
+i {
+    color:#CA3C52;
+}
+.socialGroup {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.socialGroup > img {
+    width: 96px;
+    height: auto;
+    color: #6667ab;
+    place-self: center;
+}
+#resume {
+    font-size: 18px;
+    font-family: "Comfortaa";
+    font-weight: bold;
+    text-decoration: underline;
+}
+#rightContent {
+    width:75%;
+    text-align: center;
+    background-color: #6667ab;
+}
+#heading {
+
+}
+h1 {
+    font-family: "Amethysta", serif;
+    font-size: 36px;
+    font-weight: 400;
+    color: #eeeeee;
+}
+#heading > h3 {
+    margin-left: 210px;
+    margin-right: 210px;
+    text-align: left;
+    font-family: "Comfortaa";
+    font-size: 18px;
+    font-weight: 400;
+    color: #eeeeee;
+}
+.slideshow {
+
+}
+#caption {
+    margin:0;
+    text-align: left;
+    text-indent: 210px;
+}
+#pagebreak {
+    width: auto;
+    height: 80px;
+}
+.mySkills {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    grid-gap:20px;
+}
+.skillGroup {
+    margin:0;
+}
+.skill1, .skill2, .skill3 {
+    margin: 80px;
+    color:#eeeeee;
+}
+.skill1 > h2 {
+    font-family: "Comfortaa";
+    font-size: 18px;
+    font-weight: 400;
+}
+.skill2 > h2 {
+    font-family: "Comfortaa";
+    font-size: 18px;
+    font-weight: 400;
+}
+.skill3 > h2 {
+    font-family: "Comfortaa";
+    font-size: 18px;
+    font-weight: 400;
+}
+.skill1, .skill2, .skill3 {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Comfortaa";
+}
+/*Footer*/
+footer {
+    background: #222222;
+}
+.copyright {
+    margin-left: 20px;
+}
+.iconContainer {
+    margin-left:auto;
+    margin-right:20px;
+}
+.iconContainer > img {
+    width: 24px;
+    padding:10px; 
+}
+.flexFooter {
+    display: flex;
+    flex-direction: row;
+}
+.copyright > P {
+    font-family: "Amethysta",serif;
+    color:#eeeeee;
+}
+
