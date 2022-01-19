@@ -110,7 +110,56 @@ h1 {
     color: #eeeeee;
 }
 .slideshow {
-
+    margin:auto
+}
+.slideContainer {
+    position: relative;
+    max-width: 800px;
+    margin:0 auto;
+    
+}
+.slides {
+    display: none;
+}
+.slides > img {
+    width: 100%;
+    height: auto;
+}
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top:40%;
+    text-align: center;
+    width: -800px;
+    padding: 16px;
+    margin: -0px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prev {
+    left:0;
+}
+.scrollDots {
+    margin-right:220px;
+    text-align: center;
+}
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
 }
 #caption {
     margin:0;

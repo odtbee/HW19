@@ -47,9 +47,19 @@
                          
                     </div>
                     <div class="slideshow">
-                        <img src="IMAGES/Group 2.png">
+                        <div class=slideContainer>
+                            <img class="slides" src="/HW19/IMAGES/Group 2.png" style="width:100%">
+                            <img class="slides" src="/HW19/IMAGES/Group 3.png" style="width:100%">
+                            <img class="slides" src="/HW19/IMAGES/Group 34.png" style="width:100%">
+                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                        </div>
                         <h3 id="caption">Caption</h3>
-                        <div class="scrollDots"></div>
+                        <div class="scrollDots">
+                            <span class="dot" onclick="currentSlide(1)"></span>
+                            <span class="dot" onclick="currentSlide(2)"></span>
+                            <span class="dot" onclick="currentSlide(3)"></span>
+                        </div>
                     </div>
                     <div id=pagebreak></div>
                     <h1>SKILLS</h1>
@@ -88,3 +98,5 @@
         </footer>
 
     </body>
+    <script src="JS/jsindex.js"></script>
+</html>
