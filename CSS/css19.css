@@ -268,4 +268,36 @@ footer {
     color:#eeeeee;
     margin: 20px;
 }
+/*Media*/
+@media only screen and (max-width: 600px) {
+    .header {
+        width:fit-content;
+    }
+    .flexContainer {
+        display: flex;
+        flex-direction:column;
+        width: fit-content;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .flexContainer {
+        display: flex;
+        flex-direction:column;
+        width: fit-content;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .flexContainer {
+        display: flex;
+        flex-direction:row;
+        width: fit-content;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .flexContainer {
+        display: flex;
+        flex-direction:row;
+        width: fit-content;
+    }
+}
 
